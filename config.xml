@@ -11,8 +11,8 @@
         UNMSM Mobile official app
     </description>
 
-    <author href="http://moodle.com" email="juan@moodle.com">
-        Juan Leyva
+    <author href="http://moodle.com" email="italoivan.rp@gmail.com">
+        Ivan Rivas
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
