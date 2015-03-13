@@ -3,8 +3,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.moodle.moodlemobile"
-        versionCode = "386"
-        version   = "1.12">
+        versionCode = "383"
+        version   = "1.9">
     <name>UNMSM Mobile</name>
 
     <description>
