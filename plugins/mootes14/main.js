@@ -13,7 +13,7 @@ define(templates, function (loginForm) {
             lang: {
                 component: "core"
             }
-        },
+        }   
 
         
     };
