@@ -331,25 +331,19 @@
 </script>
 
 <script type="text/template" id="add-site_template">
-<h1 class="app-ico">
-    <img src="img/login-logo.png" alt="Moodle">
-</h1>
+
+<center><img src="plugins/mootes14/logo.png"  width ="200" alt="Moodle"></center>
 <form action="" novalidate>
     <div id="login-details">
-        <p>
-            <input type="url" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
-        </p>
-        <div id="login-credentials">
+
+            <input type="hidden" id="url" value="http://campus.industrial.unmsm.edu.pe/moodle/">
             <p>
                 <input type="text" id="username" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("username") %>">
             </p>
             <p>
                 <input type="password" id="password" placeholder="<%= MM.lang.s("password") %>">
-            </p>
-        </div>
         <p>
-            <input type="submit" name="add"   id="addsitebutton"   value="<%= MM.lang.s("add") %>">
-            <input type="button" name="reset" id="resetsitebutton" value="<%= MM.lang.s("reset") %>">
+            <input type="submit" name="add"   id="addsitebutton"   value="Sign-in">
         </p>
     </div>
 </form>
