@@ -1,10 +1,9 @@
 var templates = [
-    "root/externallib/text!root/plugins/mootes14/theme.css",
     "root/externallib/text!root/plugins/mootes14/login.html",
     "root/externallib/text!root/plugins/mootes14/program.html"
 ];
 
-define(templates, function (theme, loginForm, program) {
+define(templates, function (loginForm, program) {
     var plugin = {
         settings: {
             name: "mootes14",
@@ -27,8 +26,7 @@ define(templates, function (theme, loginForm, program) {
         }
     };
 
-    // Inject allways our custom theme.
-    $("#mobilecssurl").html(theme);
+   
 
     // Replace the sign-up form with our custom template.
     $("#add-site_template").html(loginForm);
@@ -38,10 +36,7 @@ define(templates, function (theme, loginForm, program) {
         MM.addSite(e);
     };
 
-    // Inject allways our custom theme.
-    MM.loadCachedRemoteCSS = function(e) {
-        $("#mobilecssurl").html(theme);
-    };
+   
 
     // Do not display the manage accounts page.
     MM._displayManageAccounts = function() {
