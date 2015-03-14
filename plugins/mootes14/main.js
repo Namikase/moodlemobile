@@ -15,15 +15,6 @@ define(templates, function (loginForm, program) {
             }
         },
 
-        routes: [
-            ["mootes14", "show_program", "showProgram"]
-        ],
-
-        showProgram: function() {
-            var tpl = {};
-            var html = MM.tpl.render(program, tpl);
-            MM.panels.show('center', html, {title: MM.lang.s("mootes14")});
-        }
     };
 
    
