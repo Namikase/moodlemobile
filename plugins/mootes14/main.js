@@ -5,20 +5,6 @@ var templates = [
 
 define(templates, function (loginForm, program) {
     var plugin = {
-        settings: {
-            name: "mootes14",
-            type: "general",
-            menuURL: "#mootes14",
-            icon: "plugins/events/icon.png",
-            lang: {
-                component: "core"
-            }
-        },
-
-        routes: [
-            ["mootes14", "show_program", "showProgram"]
-        ],
-
         showProgram: function() {
             var tpl = {};
             var html = MM.tpl.render(program, tpl);
