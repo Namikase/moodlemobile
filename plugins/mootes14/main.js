@@ -1,9 +1,9 @@
 var templates = [
     "root/externallib/text!root/plugins/mootes14/login.html",
-    "root/externallib/text!root/plugins/mootes14/program.html"
+
 ];
 
-define(templates, function (loginForm, program) {
+define(templates, function (loginForm) {
     var plugin = {
         settings: {
             name: "mootes14",
@@ -15,15 +15,7 @@ define(templates, function (loginForm, program) {
             }
         },
 
-        routes: [
-            ["mootes14", "show_program", "showProgram"]
-        ],
-
-        showProgram: function() {
-            var tpl = {};
-            var html = MM.tpl.render(program, tpl);
-            MM.panels.show('center', html, {title: MM.lang.s("mootes14")});
-        }
+        
     };
 
    
