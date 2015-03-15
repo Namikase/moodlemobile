@@ -9,7 +9,7 @@ define(templates, function (loginForm, program) {
             name: "mootes14",
             type: "general",
             menuURL: "#mootes14",
-            icon: "plugins/events/icon.png",
+            icon: "plugins/mootes14/bolsa.png",
             lang: {
                 component: "core"
             }
