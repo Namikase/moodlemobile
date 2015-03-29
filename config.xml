@@ -2,13 +2,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.unmsmmobile"
+        id        = "com.moodle.campusfiimobile"
         versionCode = "1"
         version   = "1.0">
-    <name>UNMSM Mobile</name>
+    <name>Campus FIII Mobile</name>
 
     <description>
-        UNMSM Mobile official app
+      Campus FIII Mobile official app
     </description>
 
     <author href="http://moodle.com" email="italoivan.rp@gmail.com">
@@ -19,7 +19,7 @@
         <string>1.12</string>
     </gap:config-file>
 
-    <preference name="phonegap-version" value="3.6.3" />
+    <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
