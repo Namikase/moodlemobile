@@ -5,10 +5,10 @@
         id        = "com.moodle.campusfiimobile"
         versionCode = "1"
         version   = "1.0">
-    <name>Campus FIII Mobile</name>
+    <name>Campus FII Mobile</name>
 
     <description>
-      Campus FIII Mobile official app
+      Campus FII Mobile official app
     </description>
 
     <author href="http://moodle.com" email="italoivan.rp@gmail.com">
