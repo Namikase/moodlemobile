@@ -47,6 +47,10 @@ body {
   line-height: 24px;
   background: -webkit-radial-gradient(ellipse cover, #0a96fa, #04376f);
   background: -moz-radial-gradient(ellipse cover, #0a96fa, #04376f);
+
+  background: -o-radial-gradient(ellipse cover, #0a96fa, #04376f);
+  background: -ms-radial-gradient(ellipse cover, #0a96fa, #04376f);
+  background: radial-gradient(ellipse cover, #0a96fa, #04376f);
 }
 /* =1.3 - Links
 --------------------------------------------------------*/
